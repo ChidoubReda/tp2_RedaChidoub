@@ -22,7 +22,7 @@ public class Test3 {
                 .apiKey(key)
                 .modelName("text-embedding-004")
                 .taskType(GoogleAiEmbeddingModel.TaskType.SEMANTIC_SIMILARITY)
-                .outputDimensionality(300) //Demensionnalité de l'embedding demandée par Mr. Richard
+                .outputDimensionality(300) //Demensionnalité de l'embedding
                 .timeout(Duration.ofSeconds(1))
                 .build();
 
