@@ -34,9 +34,9 @@ public class Test5 {
         // et il est donc logique de diminuer la température.
         ChatModel model = GoogleAiGeminiChatModel.builder()
                 .apiKey(llmkey)
-                .modelName("gemini-2.0-flash")  // works with LangChain4j
+                .modelName("gemini-2.0-flash")
                 .temperature(0.2)
-                .responseFormat(ResponseFormat.TEXT) // TEXT or JSON
+                .responseFormat(ResponseFormat.TEXT)
                 .timeout(Duration.ofSeconds(60))
                 .build();
 
